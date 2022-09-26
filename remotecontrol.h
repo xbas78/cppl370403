@@ -1,4 +1,3 @@
-#include <QApplication>
 #include <QMainWindow>
 #include <QGridLayout>
 #include <QLabel>
@@ -15,7 +14,7 @@ class RemoteControl : public QMainWindow {
   bool mute = false;
   QTimer timer;
 
-  void changeChannel(const int ch);
+  void changeChannel(int ch);
 
 public:
   QWidget *widget = nullptr;

@@ -1,11 +1,4 @@
-#include <QApplication>
-#include <QMainWindow>
-#include <QGridLayout>
-#include <QLabel>
-#include <QPushButton>
-#include <QTimer>
 #include "remotecontrol.h"
-
 
 void RemoteControl::changeChannel(const int ch) {
   timer.start(delay);

@@ -14,7 +14,12 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(CPPL370403 main.cpp remotecontrol.h remotecontrol.cpp)
+add_executable(CPPL370403 main.cpp
+                          remotecontrol.h
+                          remotecontrol.cpp
+                          mainwindow.h
+                          mainwindow.cpp)
+
 target_link_libraries(CPPL370403
         Qt5::Core
         Qt5::Gui
